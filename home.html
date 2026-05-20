@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>더존 재경캠퍼스 - Home</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header"></div>
+        <script src="./header.js"></script>
+
+        <h1>안녕하세요!</h1>
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+            <h2 style="margin:0;">강의 목록</h2>
+            <label for="search"></label><input type="text" id="search" placeholder="강의 검색" oninput="filterCards()">
+        </div>
+        <div class="grid">
+            <div class="card">회계 기초</div>
+            <div class="card">세무 실무</div>
+            <div class="card">급여 관리</div>
+            <div class="card">ERP 활용</div>
+            <div class="card">재무제표 분석</div>
+            <div class="card">원가 회계</div>
+        </div>
+    </body>
+
+    <!-- 로그인 JS 불러오기 -->
+    <script src="./login.js"></script>
+    <script src="./home.js"></script>
+</html>

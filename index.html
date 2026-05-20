@@ -2,11 +2,22 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <title>HTML/CSS 학습</title>
+        <title>더존 재경캠퍼스 - Login</title>
         <link href="./style.css" rel="stylesheet">
     </head>
 
     <body>
-        <p>HTML과 CSS 학습을 위한 페이지입니다!</p>
+        <div id="header"></div>
+        <script src="./header.js"></script>
+
+        <h1>로그인</h1>
+        <label for="username"></label><input type="text" id="username" placeholder="아이디 입력">
+        <br><br>
+        <label for="password"></label><input type="password" id="password" placeholder="비밀번호 입력">
+        <br><br>
+        <button onclick="handleLogin()">로그인</button>
     </body>
+
+    <!-- 로그인 JS 불러오기 -->
+    <script src="login.js"></script>
 </html>
